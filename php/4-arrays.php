@@ -1,0 +1,9 @@
+<?php
+
+[];
+array();
+
+// Indexed
+
+// Associative
+

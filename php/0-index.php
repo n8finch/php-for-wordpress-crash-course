@@ -1,12 +1,15 @@
 <?php
+/**
+ * Getting started
+ * 1. set up LocalWP
+ * 2. download extra PHP versions
+ * 3. show PHP on Mac
+ * 4. can use https://sandbox.onlinephpfunctions.com/
+ * 5. can use Virtual Box to run Linux
+ * 6. index.php is the entry file.
+ */
 
-// 1. set up LocalWP
-// 2. download extra PHP versions
-// 3. show PHP on Mac
-// 4. can use https://sandbox.onlinephpfunctions.com/
-// 5. can use Virtual Box to run Linux
-// 6. index.php is the entry file.
-
+// A simple howdy.
 echo 'Howdy folks! 🤠';
 
 print 'How y\'all doin\'?';
@@ -15,6 +18,7 @@ echo '<pre>';
 var_dump("I'm your hucklberry...");
 echo '</pre>';
 
+// Declare a variable.
 $bye = 'Y\'all come back now!';
 
 ?>
