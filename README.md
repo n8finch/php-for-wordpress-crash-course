@@ -9,10 +9,10 @@
 ## To do
 ### PHP Lessons
 
-- [x] Intro and setup.
-- [x] Types: strings, ints, floats, boolean, arrays, object, NULL, resource
-- [x] declaring variables
-- [x] functions anonymous and named
+- ✅ Intro and setup.
+- ✅ Types: strings, ints, floats, boolean, arrays, object, NULL, resource
+- ✅ declaring variables
+- ✅ functions anonymous and named
 - [ ] arrays and syntax
 - [ ] conditional
 - [ ] loops
