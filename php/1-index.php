@@ -7,6 +7,7 @@
  * 4. can use https://sandbox.onlinephpfunctions.com/
  * 5. can use Virtual Box to run Linux
  * 6. index.php is the entry file.
+ * 7. Install PHP Intelephense: https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client
  */
 
 // A simple howdy.
