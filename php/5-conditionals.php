@@ -1,0 +1,6 @@
+<?php
+/**
+ * Conditionals
+ * 
+ * Yoda assignments.
+ */
