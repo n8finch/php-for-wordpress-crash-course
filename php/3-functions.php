@@ -1,7 +1,7 @@
 <?php
 /**
- * Declaring functions: https://www.php.net/manual/en/language.functions.php
- *
+ * Declaring functions: 
+ * https://www.php.net/manual/en/language.functions.php
  * 1. PHP functions.
  * 2. User defined functions
  * 3. Scope

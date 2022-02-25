@@ -1,7 +1,7 @@
 <?php
 /**
  * Classes and Objects
- * 
+ * https://www.php.net/manual/en/language.oop5.php
  * 1. Declaring a class
  * 2. Declaring a default object
  * 3. Storing and accessing properties and methods
