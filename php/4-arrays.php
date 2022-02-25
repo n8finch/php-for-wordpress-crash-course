@@ -1,6 +1,9 @@
 <?php
 /**
  * Arrays: https://www.php.net/manual/en/function.array
+ * 1. Short and long syntax
+ * 2. Accessing indexes
+ * 3. Array functions
  */
 
 // Short syntax:

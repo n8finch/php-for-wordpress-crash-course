@@ -4,6 +4,7 @@
  *
  * 1. PHP functions.
  * 2. User defined functions
+ * 3. Scope
  *
  * Functions can DO things and RETURN things.
  */

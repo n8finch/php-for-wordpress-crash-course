@@ -35,6 +35,12 @@ $there_is_no_spoon_1 = NULL;
 const HELLO = 'howdy';
 define( 'HELLO', '¡hola!' );
 
+// Concatenate strings.
+var_dump( HELLO . '! ' . $my_string );
+
+// Interpolation.
+var_dump( "Why $my_string I was just about to call you." );
+
 // We'll look at objects and arrays later.
 // Callable, iterable, and resource most likely in another course.
 
