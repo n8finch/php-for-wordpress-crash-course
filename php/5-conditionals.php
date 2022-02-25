@@ -4,7 +4,7 @@
  * 1. If/else
  * 2. Comparison and Logical Operators
  * 3. Conditional Assignment Operators (ternary and null coalescing)
- * 2. Switch
+ * 4. Switch
  */
 
 echo '<pre>';
@@ -43,12 +43,17 @@ var_dump( 21 <= 39 );
 // Spaceship 👾
 var_dump( 2 <=> 4 ); // -1, 0, +1
 
+
 $something = array(
     'old' => 'pyramids',
     'new' => 'keepin up...',
     'borrowed' => 'can I have that back?',
     'blue' => 'tobias fünke',
 );
+
+// Ternaries and null coalescing.
+var_dump( array_key_exists( 'old', $something ) ? $something['old'] : false );
+var_dump( $something['rad'] ?? 'does not exists' );
 
 switch ( 'old' ) {
     case 'old':
@@ -67,3 +72,4 @@ switch ( 'old' ) {
         var_dump( 'Just run this already!' );
         break;
 }
+
