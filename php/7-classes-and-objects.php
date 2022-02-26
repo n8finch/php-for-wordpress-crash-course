@@ -3,9 +3,9 @@
  * Classes and Objects
  * https://www.php.net/manual/en/language.oop5.php
  * 1. Declaring a class
- * 2. Declaring a default object
- * 3. Storing and accessing properties and methods
- * 4. Inheritance and overriding properties and methods.
+ * 2. Storing and accessing properties and methods
+ * 3. Inheritance and overriding properties and methods.
+ * 4. Visibility access modifiers.
  */
 
 
@@ -39,6 +39,17 @@ class Animal {
 
 $muppet = new Animal( 'Fozzy' );
 var_dump( "Hi my name is $muppet->name" );
+
+/*
+|--------------------------------------------------------------------------
+| Visibility and access modifiers
+|--------------------------------------------------------------------------
+|
+| -public - the property or method can be accessed from everywhere. This is default
+| -protected - the property or method can be accessed within the class and by classes derived from that class
+| -private - the property or method can ONLY be accessed within the class
+|
+*/
 
 // You can't do these:
 // $muppet->speak( 'Waka waka waka' );
