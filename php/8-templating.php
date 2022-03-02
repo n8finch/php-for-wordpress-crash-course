@@ -7,7 +7,6 @@
  * 3. Output buffer
  */
 
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
