@@ -1,22 +1,19 @@
 <?php
 
 function get_content() {
+    global $posts;
     ob_start();
+    if ( 0 < count( $posts ) ) {
     ?>
     <main>
+        <?php foreach ( $posts as $post ) : ?>
         <article>
-            <h2>Hi there</h2>
-            <p>Ipsum dolor sit amet consectetur adipisicing elit. Modi debitis facere, sed voluptatem, harum mollitia deserunt repudiandae dolorem nesciunt sint illo et nulla ipsa alias facilis. Excepturi consequatur deleniti laboriosam?</p>
+            <h2><?php echo $post->title; ?></h2>
+            <p><?php echo $post->content; ?></p>
         </article>
-        <article>
-            <h2>PHP Here</h2>
-            <p>Dolor sit amet consectetur adipisicing elit. Modi debitis facere, sed voluptatem, harum mollitia deserunt repudiandae dolorem nesciunt sint illo et nulla ipsa alias facilis. Excepturi consequatur deleniti laboriosam?</p>
-        </article>
-        <article>
-            <h2>One more thing</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi debitis facere, sed voluptatem, harum mollitia deserunt repudiandae dolorem nesciunt sint illo et nulla ipsa alias facilis. Excepturi consequatur deleniti laboriosam?</p>
-        </article>
+        <?php endforeach ?>
     </main>
     <?php 
+    }
     echo ob_get_clean();
 }
