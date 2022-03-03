@@ -1,13 +1,13 @@
 <?php
 /**
  * Getting started
- * 1. set up LocalWP
- * 2. download extra PHP versions
- * 3. show PHP on Mac
- * 4. can use https://sandbox.onlinephpfunctions.com/
- * 5. can use Virtual Box to run Linux
- * 6. index.php is the entry file.
- * 7. Install PHP Intelephense: https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client
+ * 1. Set up LocalWP, spin up new site
+ * 2. Download extra PHP versions
+ * 3. Show PHP on Mac
+ * 4. Can use https://sandbox.onlinephpfunctions.com/
+ * 5. Can use Virtual Box to run Linux
+ * 6. Install PHP Intelephense: https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client
+ * 7. index.php is the entry file.
  */
 
 // A simple howdy.

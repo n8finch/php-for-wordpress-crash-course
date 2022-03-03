@@ -1,8 +1,10 @@
 <?php
+/**
+ * 1. Move WP install back in place, make sure it's loading.
+ * 2. Explore the wp-content folder: this is what can be edited (we'll explore the other folders later).
+ * 3. Themes for presentation, plugins for functionality (definitely a gray area).
+ * 4. Get the twentytwenty and twentytwentytwo themes installed, activate twentytwenty.
+ * 5. We will edit the functions.php file mostly, but other files as well, but you shouldn't do this on a real site (we'll cover that in the next course).
+ * 6. Import some data with the Theme Unit Test: https://codex.wordpress.org/Theme_Unit_Test (in this directory).
+ */ 
 
-// 1. set up LocalWP
-// 2. download extra PHP versions
-// 3. show PHP on Mac
-// 4. can use https://sandbox.onlinephpfunctions.com/
-// 5. can use Virtual Box to run Linux
-// 6. index.php is the entry file.
