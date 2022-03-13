@@ -1,35 +1,26 @@
 <?php
 /**
- * Actions and filters
- * https://codex.wordpress.org/Plugin_API#Hooks:_Actions_and_Filters
+ * Enqueueing
+ * https://developer.wordpress.org/reference/hooks/wp_enqueue_scripts/
  * 
- * 1. do_action, apply_filters
- * 2. add_action, add_filter
- * 3. Finding actions and filters in WP core, themes and plugins
+ * 1. What it is and why we do it.
+ * 2. wp_enqueue_scripts
+ * 3. wp_enqueue_script and wp_enqueue_style
+ * - https://developer.wordpress.org/reference/functions/wp_enqueue_style/
+ * - https://developer.wordpress.org/reference/functions/wp_enqueue_script/
+ * 4. Scripts available to be enqueued in WordPress.
+ * 5. Register style/script: 
  */
-$value = 'This is a song that never ends...';
-$process = [
-    'title'            => 'A cool process',
-    'thing_to_process' => ''
-];
-// Actions hook in and allow functions to run.
-do_action( 'after_post_content' );
-do_action( 'after_some_process_completes', $process, $value );
 
-// Filters always take at least input and MUST return something.
-$new_value = apply_filters( 'rework_lyrics', $value );
+add_action( 'wp_enqueue_scripts', 'wpdocs_theme_name_scripts' );
+function wpdocs_theme_name_scripts() {
+    wp_enqueue_style( 'style-name', get_stylesheet_uri() );
+    wp_enqueue_script( 'script-name', get_template_directory_uri() . '/js/example.js', array(), '1.0.0', true );
+}
 
-// Add and action to the actions above.
-add_action( 'after_post_content', function() {
-    echo '<p>... And that is the end of that!</p>';
-});
+// For proper versioning based on the file’s last modified time, you can use something similar to:
+wp_enqueue_style( 'main-styles', get_template_directory_uri() . '/css/style.css', array(), filemtime( get_template_directory() . '/css/style.css' ), 'all' );
 
-add_action( 'after_some_process_completes', 'post_process_check', 10, 2 );
-function post_process_check( $process, $value ) {
-    echo 'The process is: ' . $process['title'];
-};
+$my_js_ver  = date( "ymd-Gis", filemtime( get_stylesheet_directory_uri() . 'js/custom_script.js' ) );
+wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/js/custom_script.js', array( 'jquery' ), $my_js_ver, true );
 
-// This will return a new value.
-add_filter( 'rework_lyrics', function( $value ) {
-    return str_replace( 'never', 'always', $value );
-});
