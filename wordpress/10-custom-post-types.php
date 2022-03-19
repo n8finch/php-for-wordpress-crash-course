@@ -4,6 +4,7 @@
  * 1. What are Custom Post Types and why use them?: https://developer.wordpress.org/plugins/post-types/registering-custom-post-types/
  * 2. Register a Custom Post Type: https://developer.wordpress.org/reference/functions/register_post_type/
  * 3. Register Taxonomies: https://developer.wordpress.org/reference/functions/register_taxonomy/
+ * 4. Custom Post Types UI (good plugin... but you probably don't need it, just need to know it's there.)
  */
 
  /*
