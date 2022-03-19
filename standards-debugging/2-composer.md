@@ -3,7 +3,9 @@ A Dependency Manager for PHP
 
 ## Install
 - Composer v. 2
-- Install globally: https://getcomposer.org/doc/00-intro.md#globally
+- Install globally:
+    - Preferred: https://formulae.brew.sh/formula/composer#default
+    - Manually: https://getcomposer.org/doc/00-intro.md#globally
 - https://getcomposer.org/download/
 ## Initialize a Project
 - `composer init`

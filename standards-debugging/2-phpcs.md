@@ -1,2 +1,0 @@
-# PHP Code Sniffer (PHPCS)
-
