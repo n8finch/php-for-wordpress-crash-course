@@ -2,12 +2,13 @@
 /**
  * Getting started
  * 1. Set up LocalWP, spin up new site
- * 2. Download extra PHP versions
- * 3. Show PHP on Mac
- * 4. Can use https://sandbox.onlinephpfunctions.com/
- * 5. Can use Virtual Box to run Linux
- * 6. Install PHP Intelephense: https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client
- * 7. index.php is the entry file.
+ * 2. Pull code from Github: https://github.com/n8finch/php-for-wordpress-crash-course
+ * 3. Download extra PHP versions
+ * 4. Show PHP on Mac
+ * 5. Can use https://sandbox.onlinephpfunctions.com/
+ * 6. Can use Virtual Box to run Linux
+ * 7. Install PHP Intelephense: https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client
+ * 8. index.php is the entry file.
  */
 
 // A simple howdy.
