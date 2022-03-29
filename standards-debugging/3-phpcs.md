@@ -25,6 +25,7 @@ Follow instructions here: https://github.com/WordPress/WordPress-Coding-Standard
 - PSR-12 for other PHP projects (like Laravel or Symfony): https://www.php-fig.org/psr/psr-12/
 - Installing PSR-12
 - Make PSR-12 default: `phpcs --config-set default_standard WordPress`
+- The PHPCBF extension: https://marketplace.visualstudio.com/items?itemName=persoderlind.vscode-phpcbf
 
 ## Using in VSCode
 - Install the PHPCS Extension by Ioannis Kappas (yes, I know it has 3 stars): https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs
