@@ -43,7 +43,8 @@ $y = 4;
 
 var_dump( $add(4) );
 var_dump( $add(5) );
-// Variable functions.
+
+// User definded and Variable functions.
 function awesome_sauce( $value ) {
 	echo "Take it up to $value";
 	return 'Or just to ' . $value;
@@ -51,6 +52,7 @@ function awesome_sauce( $value ) {
 
 echo '<pre>';
 awesome_sauce( $int_val );
+$awesome_sauce( $int_val );
 $result = awesome_sauce( $int_val );
 
 var_dump( $result );
