@@ -5,7 +5,7 @@ https://xdebug.org/
 - Install LocalWP
 - Add extension
 - PHP Debug Extension in VSCode
-- Chrome extension if needed: https://chrome.google.com/webstore/search/xdebug
+- Chrome extension if needed: https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc
 - Set a breakpoint in your Editor
 
 ## Other resources
