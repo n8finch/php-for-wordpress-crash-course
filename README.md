@@ -6,8 +6,8 @@
 3. Set up coding standards, talk about package management, check out debugging.
 
 
-## To do
-### PHP Lessons
+## Lessons
+### Part 1: PHP
 
 - Intro and setup.
 - Types: strings, ints, floats, boolean, arrays, object, NULL, resource
@@ -23,7 +23,7 @@
 - Adding docblock comments.
 
 
-### WP Lessons
+### Part 2: WordPress
 - Intro to the world of WordPress PHP, the Codex, and Dev Resources
 - The Loop
 - Globals
@@ -38,7 +38,7 @@
 - wpdb
 
 
-### Standards and Debugging
+### Part 3: Standards and Debugging
 - Setup PHPCS
 - Kint and Whoops
 - xDebug
