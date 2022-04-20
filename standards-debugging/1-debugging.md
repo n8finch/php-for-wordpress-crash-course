@@ -3,6 +3,7 @@ Because we all need to!
 ## WordPress Built Ins
 - https://wordpress.org/support/article/debugging-in-wordpress/
 
+Usually, these `define` statements will go in your `wp-config.php` file.
 ~~~php
 // Enable WP_DEBUG mode
 define( 'WP_DEBUG', true );
