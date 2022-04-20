@@ -8,6 +8,7 @@
 
 global $post;
 global $wpdb;
+global $wp_query;
 
 // Browser
 global $is_iphone;

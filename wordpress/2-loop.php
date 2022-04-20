@@ -5,7 +5,7 @@
  * https://developer.wordpress.org/themes/basics/the-loop/
  * 
  * 1. This is what makes WordPress... WordPress!
- * 2. 
+ * 2. Basics and example from 2020
  */
 
 // The basic loop:

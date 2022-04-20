@@ -13,5 +13,6 @@ A Dependency Manager for PHP
 - Global commands: https://getcomposer.org/doc/03-cli.md#init
 
 ## Packagist and WP Packagist
-https://packagist.org/
-https://wpackagist.org/
+
+- https://packagist.org/
+- https://wpackagist.org/
