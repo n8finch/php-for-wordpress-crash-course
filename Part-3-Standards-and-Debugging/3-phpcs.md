@@ -1,5 +1,5 @@
 # PHP Code Sniffer (PHPCS)
-Yes, PHP and WordPres ***do*** have coding standards!:
+Yes, PHP and WordPress ***do*** have coding standards!:
 - PHP Standards Recommendations (PSR): https://www.php-fig.org/psr/
 - Code: https://developer.wordpress.org/coding-standards/wordpress-coding-standards/
 - Inline Comments: https://developer.wordpress.org/coding-standards/inline-documentation-standards/
